@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(74, 74, 233);
+    border-radius: 20px;
+    margin-top: -23px;
+}
+
+nav img {
+    width: 174px;
+    height: 165px;
+    margin-top: -131px;
+    margin-left: -8px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 590px;
+    padding-top: 30px;
+}
+
+.dabba p {
+    font-size: 20px;
+    color: black;
+    /* text-shadow: 0px 0px 3px gray; */
+    margin-left: 106px;
+    margin-top: 184px;
+    text-overflow: ellipsis;
+    font-weight: lighter;
+    margin-bottom: -39px;
+}
+
+.dabba img {
+    width: 583px;
+    height: 335px;
+    border-radius: 30px;
+    margin-left: 735px;
+    margin-top: -250px;
+    cursor: pointer;
+}
+
+.dabba h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 159px;
+    margin-bottom: -166px;
+    margin-left: 206px;
+}
+
+.dibba {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(86, 86, 233);
+    margin-bottom: 80px;
+    margin-top: -43px;
+}
+
+.dibba h1 {
+    font-size: 118px;
+}
+
+.dabba button {
+    width: 127px;
+    height: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 20px;
+    margin-left: 256px;
+    margin-top: -216px;
+    margin-bottom: 61px;
+    font-size: 20px;
+}
+
+.dabba button:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px blue;
+}
+
+.dibba img {
+    margin-left: 968px;
+    margin-top: -555px;
+}
+
+.dibba button {
+    width: 127px;
+    height: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 22px;
+    margin-bottom: 61px;
+    font-size: 20px;
+}
+
+.dibba button:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px blue;
+}
+
+video {
+    border-radius: 34px;
+    width: 356px;
+    height: 400px;
+    margin-top: -117px;
+    margin-left: 29px;
+}
+
+.video h2 {
+    margin-left: 20px;
+    padding-top: 113px;
+    margin-bottom: 35px;
+    color: blue;
+}
+
+.steps {
+    margin-left: 580px;
+    display: block;
+    margin-top: -370px;
+}
+
+.steps h2 {
+    color: blue;
+}
+
+.steps p {
+    margin-top: -11px;
+    display: block;
+}
+
+.steps h3 {
+    color: blue;
+}
+
+.u a {
+    margin-left: 323px;
+    display: block;
+    margin-top: -117px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.u a:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /* -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px); */
+}
+
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 909px;
+    height: 514px;
+    padding: 80px 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 51px;
+}
+
+
+/* .avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: 190px;
+} */
+
+.contact-form h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+
+.contact-form p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-form p1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 643px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type=email] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form input[type=city],
+.contact-form input[type=name] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form input[type=views] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.contact-form input[type=submit] {
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(0, 81, 255);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 15%;
+}
+
+.contact-form a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    width: 20%;
+}
+
+.contact-form button {
+    height: 44px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(0, 81, 255);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: -13px;
+    width: 100px;
+}
+
+.contact-form input[type=city] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}

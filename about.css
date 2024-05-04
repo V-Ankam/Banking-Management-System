@@ -1,0 +1,202 @@
+h1 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 590px;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(74, 74, 233);
+    border-radius: 20px;
+    display: flex;
+}
+
+h2 {
+    color: rgb(9, 9, 50);
+    font-size: 45px;
+    margin-left: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.con {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(103, 110, 247);
+    border-radius: 20px;
+}
+
+.his {
+    width: 400px;
+    height: 180px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-left: 76px;
+    margin-top: 34px;
+    border: 3px solid rgb(74, 74, 233);
+}
+
+.his:hover {
+    box-shadow: 0px 0px 4px 0px rgb(74, 74, 233);
+}
+
+.his p {
+    color: #fff;
+    ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.dir {
+    width: 400px;
+    height: 180px;
+    background-color: transparent;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 4px 0px gray; */
+    margin-left: 975px;
+    margin-top: -428px;
+    border: 3px solid rgb(74, 74, 233);
+}
+
+.dir:hover {
+    box-shadow: 0px 0px 4px 0px rgb(74, 74, 233);
+}
+
+.com {
+    width: 400px;
+    height: 180px;
+    background-color: transparent;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 4px 0px gray; */
+    margin-left: 309px;
+    margin-top: 51px;
+    border: 3px solid rgb(74, 74, 233);
+}
+
+.com:hover {
+    box-shadow: 0px 0px 4px 0px rgb(74, 74, 233);
+}
+
+.room {
+    width: 400px;
+    height: 180px;
+    background-color: transparent;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 4px 0px gray; */
+    margin-left: 762px;
+    margin-top: 54px;
+    border: 3px solid rgb(74, 74, 233);
+}
+
+.room:hover {
+    box-shadow: 0px 0px 4px 0px rgb(74, 74, 233);
+}
+
+.room p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px gray;
+    padding-top: 1px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.dir p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px gray;
+    padding-top: -5px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.op p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px gray;
+    padding-top: 1px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.op {
+    width: 400px;
+    height: 180px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-left: 525px;
+    margin-top: -416px;
+    border: 3px solid rgb(74, 74, 233);
+}
+
+.op:hover {
+    box-shadow: 0px 0px 6px 0px rgb(74, 74, 233);
+}
+
+.com p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px gray;
+    padding-top: 1px;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.com h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-left: 82px;
+    padding-top: -3px;
+    margin-bottom: -8px;
+}
+
+.op h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-left: 82px;
+    padding-top: 10px;
+}
+
+.dir h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-left: 82px;
+    padding-top: -16px;
+}
+
+.room h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-left: 130px;
+    padding-top: -1px;
+}
+
+.his h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-left: 148px;
+    padding-top: 10px;
+}
+
+marquee {
+    margin-top: 20px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 20px;
+}

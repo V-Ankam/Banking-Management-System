@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgb(58, 126, 214), rgb(80, 80, 224));
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+}
+
+.main {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 339px;
+    background-color: transparent;
+    margin-left: 500px;
+    margin-top: -7px;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    width: 73px;
+    height: 33px;
+    border-radius: 26px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgb(17, 17, 208);
+    box-shadow: 0px 0px 2px rgb(17, 17, 208);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+h2 {
+    margin-bottom: -42px;
+    margin-left: -8px;
+}
+
+h1 {
+    margin-top: 69px;
+    font-size: 69px;
+    font-family: math;
+    font-weight: bolder;
+    color: aliceblue;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transparent Login Form with Blur Background</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="feedback.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contact-form">
+
+        <h2 style="font-family: 'Times New Roman', Times, serif;">Feedback Form</h2>
+        <form name="submit-to-google-sheet">
+            <p>Name</p><input placeholder="Enter your full name" type="name" name="Name">
+            <p>Email</p><input placeholder="Enter Email" type="email" name="Email id">
+            <p> <label for="cars" style="color: #fff;font-weight: bold; ">Select a City</label>
+                <select id="city" name="City" style="border-radius: 5px; margin-left: 10px; margin-top: 10px; margin-bottom: 20px; ">
+              <p style="background: transparent;"><option value="Devrukh">Devrukh</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Bhiwandi">Bhiwandi</option>
+              <option value="Bhandup">Bhandup</option></p>
+            </select>
+                <p>Feedback</p>
+                <p><input placeholder="Enter your views" type="text" name="Feedback" style="border: none;
+                    border-bottom: 1px solid #fff;
+                    background: transparent;
+                    outline: none;
+                    height: 40px;
+                    color: #fff;
+                    font-size: 16px;"></p>
+                <button type="submit" class="btn btn2" style=" cursor: pointer;">Submit</button>
+
+
+        </form>
+        <span id="msg"></span>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdvFv8bc5nwVVdmPN1Wc5TCC5hVkm7UU7dSRGTGP5AWanUHf-A8SEiLAtE51lRlac9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>

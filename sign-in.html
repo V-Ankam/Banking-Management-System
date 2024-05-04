@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-IN</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+
+<body>
+    <center>
+        <h1>VVA BANK</h1>
+    </center>
+    <div class="main">
+
+        <form action="" method="post" onsubmit="return CanSubmit()">
+            <center>
+
+                <!-- <marquee>
+                    <h3>PLEASE ENTER YOUR DETAILS AND CLICK ON SUBMIT BUTTON</h3>
+                </marquee> -->
+
+                <h2>SIGN-IN</h2>
+                <br><br><br><br>User ID:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="user_id" style="border-radius: 10px; height: 30px; width: 200px;background-color: transparent; border: 1px solid black; margin-left: 25px;">                <br /><br><br> Password: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="password" name="txtPassword" value="" style="border-radius: 10px; height: 30px; width: 200px;background-color: transparent; border: 1px solid black; margin-left: 10px;"> <br /><br><br> ConfirmPassword:&nbsp&nbsp <input type="password"
+                    name="txtConfirmPassword" value="" style="border-radius: 10px; height: 30px; width: 200px;background-color: transparent; border: 1px solid black; margin-left: -10px;"> <br /><br><br>
+
+                <button>SUBMIT</button>
+            </center>
+    </div>
+    </div>
+    <script type="text/javascript">
+        function CanSubmit() {
+            var pwd = document.forms[0].txtPassword.value
+            var cpwd = document.forms[0].txtConfirmPassword.value
+            if (pwd == cpwd) {
+                if (pwd == "") {
+                    alert("Please enter your username and password");
+                } else
+                    alert("Logged in successfully");
+                return true;
+            } else {
+                alert("Please make sure that Password and Confirm Password are Same");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>
